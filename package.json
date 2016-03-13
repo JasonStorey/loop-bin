@@ -1,0 +1,23 @@
+{
+  "name": "loop-bin",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonStorey/loop-bin.git"
+  },
+  "author": "Jason A. Storey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonStorey/loop-bin/issues"
+  },
+  "homepage": "https://github.com/JasonStorey/loop-bin#readme",
+  "devDependencies": {
+    "webpack": "^1.12.14"
+  }
+}
