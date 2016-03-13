@@ -1,5 +1,7 @@
-function init() {
-    console.log('does nothing, yet');
+var App = require('./app');
+
+function init(config) {
+    App.init(config.container);
 }
 
 const LoopBin = {

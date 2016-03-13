@@ -5,9 +5,12 @@
     <title>Loop Bin</title>
 </head>
 <body>
+<div id="loop-bin-container"></div>
 <script src="./loop-bin.js"></script>
 <script>
-    LoopBin.init();
+    LoopBin.init({
+        container: document.getElementById('loop-bin-container')
+    });
 </script>
 </body>
 </html>
