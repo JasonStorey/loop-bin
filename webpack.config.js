@@ -5,5 +5,10 @@ module.exports = {
         filename: 'loop-bin.js',
         libraryTarget: 'var',
         library: 'LoopBin'
+    },
+    module: {
+        loaders: [
+            { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'}
+        ]
     }
 };
